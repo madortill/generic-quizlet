@@ -48,7 +48,7 @@ header{
   color: white;
   padding: 2vh 0;
   background-color: #619ac8;
-  /* background-image: url("images/bgtop.svg"); */
+  background-image: url("images/bgtop.svg");
   background-repeat: no-repeat;
   background-size: cover;
   height: fit-content;
