@@ -180,7 +180,6 @@ height: 4vh;
   display: flexbox;
   display: -webkit-flex;
   display: -ms-flexbox;
-
   display: flex;
   justify-content: space-evenly;
   margin-top: 3vh;
@@ -254,7 +253,6 @@ transform: rotateY(180deg);
   display: flexbox;
   display: -webkit-flex;
   display: -ms-flexbox;
-
   justify-content: space-evenly;
 }
 
@@ -268,8 +266,9 @@ transform: rotateY(180deg);
   text-align: center;
   color: #4D7582;
   position: fixed;
-  margin-top: 8.5vh;
-
+  /* margin-bottom: 5.5vh; */
+  position: absolute;
+  top: 50%;
 }
 
 #term-text{
@@ -289,11 +288,13 @@ transform: rotateY(180deg);
 
 #current-term{
 
-  font-size: 3vh;
-  text-align: center;
-  color: #4D7582;
-  position: fixed;
-  
+font-size: 3vh;
+
+text-align: center;
+
+color: #4D7582;
+
+/* position: fixed; */
 }
 
 .menu-icon{
@@ -946,30 +947,35 @@ background-repeat: no-repeat;
 .term-card-game{
   height: 20vw;
   width: 20vw;
-  background-image: url("images/game-blue-card-term.svg") ; 
+  background-image: url("images/game-blue-card-term.svg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   display: flexbox;
   display: -webkit-flex;
   display: -ms-flexbox;
-
   display: flex;
   justify-content:center;
   align-items: center;
   text-align: center;
   margin-top: 5vw;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
 }
 
 .term-explain-card-game{
   height: 20vw;
   width: 20vw;
-  background-image: url("images/game-blue-card-explain.svg") ; 
+  background-image: url("images/game-blue-card-explain.svg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   display: flexbox;
   display: -webkit-flex;
   display: -ms-flexbox;
-
   display: flex;
   justify-content:center;
   align-items: center;
@@ -979,6 +985,13 @@ background-repeat: no-repeat;
   line-break: anywhere;
   overflow-wrap: anywhere;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 20% 100%, 0 80%, 0 0);
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
 }
 
 .game-curr-choose-explain{
