@@ -40,6 +40,7 @@ var currectAnsArrTry = [];
 var arrShaffelCard = [];
 
 window.onload = () => {
+    console.log(1);
     document.querySelector(".card-button").addEventListener("click", onClickCardButton);
     document.querySelector(".test-button").addEventListener("click", onClickTestButton);
     document.querySelector(".try-button").addEventListener("click", onClickTryButton);
